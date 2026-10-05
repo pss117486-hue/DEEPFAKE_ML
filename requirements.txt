@@ -1,0 +1,20 @@
+# Core
+torch>=2.2.0          # install the CUDA 12.x build matching your driver, see README
+torchvision>=0.17.0
+timm>=0.9.16
+opencv-python>=4.9.0
+numpy>=1.26.0
+pillow>=10.2.0
+scipy>=1.12.0
+
+# Face detection
+facenet-pytorch>=2.5.3
+# ultralytics>=8.2.0   # uncomment if using the yolov8_face backend
+
+# Training / eval
+scikit-learn>=1.4.0
+pandas>=2.2.0
+tqdm>=4.66.0
+
+# Video/container forensics (requires ffmpeg/ffprobe installed on system PATH)
+ffmpeg-python>=0.2.0
